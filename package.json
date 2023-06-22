@@ -1,0 +1,22 @@
+{
+  "name": "onebackend",
+  "version": "1.0.0",
+  "description": "an express based node backend for the clothing store onestyle",
+  "main": "server.js",
+  "author": "diem0n",
+  "type": "module",
+  "scripts": {
+    "serve": "nodemon server.js"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.2.2",
+    "nodemon": "^2.0.22"
+  }
+  
+}
